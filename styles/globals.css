@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --background-primary: #f0f2f4;
+  --foreground-primary: #000000;
+  --background-secondary: #ffffff;
+  --background-loading: #cfcfcf;
+  --stroke-primary: #ff4458;
+  --gradient-primary: linear-gradient(
+    90deg,
+    #fd306e 0%,
+    #ff5c3a 100%,
+    #ff5d3a 100%
+  );
+  --gradient-feed-primary: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    #000000 58.34%
+  );
+}

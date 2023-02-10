@@ -1,0 +1,38 @@
+.sidebar_nav_main {
+  background: var(--gradient-primary);
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1em;
+}
+
+.sidebar_nav_user {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.sidebar_nav_user p {
+  color: white;
+  font-weight: 500;
+}
+
+.sidebar_nav_dp_image {
+  border-radius: 50px;
+}
+
+.sidebar_nav_utils {
+  display: flex;
+  gap: 1em;
+}
+
+.sidebar_nav_icon_wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #0000009a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

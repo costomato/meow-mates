@@ -1,0 +1,5 @@
+.sidebar_main {
+  width: 25%;
+  background: var(--background-secondary);
+  min-height: 100vh;
+}

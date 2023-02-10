@@ -1,0 +1,6 @@
+.landing_card_main {
+  position: relative;
+  height: 95vh;
+  overflow: hidden;
+  background: var(--background-loading);
+}

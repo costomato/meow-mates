@@ -1,0 +1,18 @@
+ul.sidebar_tabs_main {
+  display: flex;
+  list-style: none;
+  padding: 0 1em;
+  gap: 1em;
+}
+
+li.sidebar_tabs_tab {
+  text-decoration: none;
+  padding: 1em;
+  font-weight: 500;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+
+li.sidebar_tabs_tab.selected {
+  border-bottom: 4px solid var(--stroke-primary);
+}
